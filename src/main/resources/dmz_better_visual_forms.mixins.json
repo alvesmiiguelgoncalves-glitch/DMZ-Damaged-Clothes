@@ -1,0 +1,36 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.dmzbettervisualforms.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "dmz_better_visual_forms.refmap.json",
+  "mixins": [
+    "FormDataMixin"
+  ],
+  "client": [
+    "ArmorTextureResolverMixin",
+    "DbzArmorItemsMixin",
+    "DMZCustomArmorLayerMixin",
+    "DMZCapeLayerMixin",
+    "DMZRenderHandMixin",
+    "DMZSkinLayerInvoker",
+    "HairTintMixin",
+    "KiChargeAnimationMixin",
+    "OutlineShaderConfigMixin",
+    "PartsLayerTintMixin",
+    "SaiyanTailRulesMixin",
+    "ShaderOutlineMixin",
+    "SkinLayerBrowTintMixin",
+    "SkinLayerEyesMixin",
+    "SkinLayerTailMixin",
+    "SkinLayerTintMixin",
+    "StrandColorMixin",
+    "ConfigMenuScreenMixin",
+    "StatusMixin",
+    "AuraFxStateMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
